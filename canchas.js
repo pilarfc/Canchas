@@ -52,12 +52,16 @@ function mostrarCancha (cancha) {
 
 function ocultarCancha(cancha) {
 cancha.style.display = "none";
+document.getElementById("texto").style.display = "block";
 }
 
 function ocultarTexto () {
   p.style.display = "none";
 }
 
+function mostrarTexto () {
+  p.style.display = "block";
+}
 
 
 botonFut.addEventListener("click",detectarBoton);
